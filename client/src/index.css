@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+/* tiny scrollbar styling for message pane */
+.scroll-shadow::-webkit-scrollbar {
+  height: 8px;
+  width: 8px;
+}
+.scroll-shadow::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.12);
+  border-radius: 9999px;
+}
