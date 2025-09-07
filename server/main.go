@@ -93,5 +93,5 @@ func main() {
 		addr = "8080"
 	}
 	log.Printf("listening on :%s", addr)
-	app.Listen("localhost:" + addr)
+	app.Listen("0.0.0.0:" + addr)
 }
