@@ -8,3 +8,5 @@ RUN go mod download
 COPY . .
 
 CMD ["go", "run", "."]
+
+EXPOSE 8080
